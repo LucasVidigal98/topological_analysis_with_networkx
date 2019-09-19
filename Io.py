@@ -16,7 +16,7 @@ def read(file_name):
 
 	sub_info = file.readline().split("\t")
 
-	info.append(sub_info) #Salva as informacoes do numero de vertices e arestas
+	info.append(sub_info) #Saves the number of vertices and edges information
 	sub_info = sub_info[1].split('\n')
 	info[0][1] = sub_info[0]
 
