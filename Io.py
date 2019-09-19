@@ -24,10 +24,10 @@ def read(file_name):
 	for i in range(0, int(info[0][0])): 
 
 		sub_info = file.readline().split('\t')
-		vertex = list()
-		vertex.append(sub_info[0])
-		vertex.append(sub_info[1])
-		info.append(vertex)
+		node = list()
+		node.append(sub_info[0])
+		node.append(sub_info[1])
+		node.append(vertex)
 	
 	#Saves as edges information
 	for i in range(0, int(info[0][1])):
