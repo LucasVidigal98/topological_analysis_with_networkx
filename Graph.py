@@ -17,7 +17,9 @@ def creategraph(info):
 
 
     #add the edges
-    for i in range(int(info[0][0]) + 1, int(info[0][1])):
+    for i in range(int(info[0][0]) + 1, len(info)):
+
+    	print(str(info[i][0]) + ' ' + info[i][1])
 
     	G.add_edge(int(info[i][0]), int(info[i][1]))
 
