@@ -27,7 +27,7 @@ def read(file_name):
 		node = list()
 		node.append(sub_info[0])
 		node.append(sub_info[1])
-		node.append(vertex)
+		info.append(node)
 	
 	#Saves as edges information
 	for i in range(0, int(info[0][1])):
